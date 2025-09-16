@@ -1,0 +1,13 @@
+<div class="main" [ngStyle]="{'background-color': backgroundColor}">
+  <header class="header">
+    <p class="prenom">Quentin et Iseult</p>
+  </header>
+  <div class="selector">
+    <app-page (color)="changeBackground($event)"></app-page>
+  </div>
+  <footer class="footer"></footer>
+</div>
+
+
+
+

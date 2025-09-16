@@ -1,0 +1,43 @@
+.main{
+  box-sizing: border-box;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background : purple;
+  height : 50px;
+  align-content: center;
+}
+
+.prenom{
+  text-align: center;
+  color: white;
+}
+
+.selector{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer{
+  position: fixed;
+  background : orange;
+  height : 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
